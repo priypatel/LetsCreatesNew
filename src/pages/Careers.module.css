@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.career-container {
+  width: 82%;
+  height: auto;
+  margin: 9%;
+  display: flex;
+  justify-content: space-between;
+  min-height: 700px;
+  gap:3%;
+}
+.career-heading{
+  color: #c3363d;
+}
+.career-detail {
+  background-color: rgb(255, 255, 255);
+  color:black;
+  width: 46%;
+}
+.list{
+   line-height: 30px;
+}
+.list-item {
+  padding-left: 5%;
+}
+
+@media only screen and (max-width: 992px) {
+  .career-container{
+    display: block;
+  }
+  .career-detail{
+    width: 100%;
+  }
+  .image{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .images{
+    width: 50%;
+    height: 70%;
+  }
+}
+
+
